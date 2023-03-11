@@ -1,0 +1,536 @@
+@font-face {
+    font-family: 'robo';
+    src: url(./ttf/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'robo-medium';
+    src: url(./ttf/Roboto-Regular.ttf);
+}
+.desktopIndex{
+    background: #F8F9FF;
+}
+.menu nav a:hover{
+    color: #fff;
+}
+.newAcc:hover{
+    color:#fff;
+}
+.newAcc2:hover{
+    color: #fff;
+    background-color:#0d34a0;
+}
+button#siUp :hover{
+    color: #fff;
+    background:#172755;
+}
+.title-header{
+    width: 100%;
+    height: 573px;
+    background:#172755;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+}
+.cntCoverCircle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    gap: 30px;
+}
+.blockStarter, .blockPremium{
+    width: 340px;
+    height: 360px;
+    background: #0F1F4B;
+    display: flex;
+    justify-content: center;
+}
+.starterBlock, .primiumBlock, .standardBlock{
+    margin-top: 2em;
+    text-align: center;
+}
+.starterBlock button{
+    margin-top: 55px;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #172755;
+    color: #fff;
+    border-radius: 20px;
+    font-family: robo;
+}
+.starterBlock button:hover{
+    background-color:#0d34a0;
+}
+.premiumBuy{
+    margin-top: 55px;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #172755;
+    color: #fff;
+    border-radius: 20px;
+    font-family: robo;
+}
+.premiumBuy:hover{
+    background-color:#0d34a0;
+}
+.zenaTarif{
+    margin-top: 66px;
+    font-family: robo;
+    font-size: 30px;
+    color:#fff;
+}
+.standardBlock .zenaTarif{
+    color: #172755;
+}
+.primiumBlock{
+    text-align: center;
+}
+.standardBlock span{
+    color: #8794BA;
+    font-family: robo-medium;
+    font-size: 14px;
+}
+.primiumBlock span{
+    color: #8794BA;
+    font-family: robo-medium;
+    font-size: 14px;
+}
+.starterBlock span{
+    color: #8794BA;
+    font-family: robo-medium;
+    font-size: 14px;
+}
+.tarifStandrd{
+    color: #172755;
+    font-weight: 700;
+    font-family: robo;
+    font-size: 30px;
+}
+.tarifStarter, .tarifPremium{
+    color: #fff;
+    font-weight: 700;
+    font-family: robo;
+    font-size: 30px;
+}
+.blockStandard{
+    width: 340px;
+    background: #fff;
+}
+.titleInfo{
+    font-family: robo;
+    font-size: 32px;
+}
+.wrapColumn1{
+    margin-top: 50px;
+    width: 431px;
+    text-align: center;
+}
+.wrapColumns{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    gap: 100px;
+}
+.helpBetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.helpBetter b{
+    font-size: 16px;
+    font-family: robo;
+    margin-bottom: 10px;
+}
+input[type=email], input[type=password] {
+    padding: 10px;
+    border:1px solid #ebebeb;
+    border-radius: 5px;
+    font-family: robo-medium;
+}
+.formReg{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.startTrial{
+    background: #722ED1;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 344px;
+    height: 48px;
+    font-family: robo-medium;
+}
+.authLink{
+    text-align: center;
+    border-top: 1px solid #c4c4c4;
+    font-size: 14px;
+    font-family: robo-medium;
+    padding-top: 15px;
+}
+.signUp{
+    font-family: robo;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.endFooter{
+    background: #1F2F5C;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.menu1{
+    margin-left:315px;
+}
+.menu1 nav{
+    display: flex;
+    gap: 40px;
+}
+.endFooter nav a{
+    font-family: robo-medium;
+    font-size: 14px;
+    color:#8794BA;
+}
+.logoFirms{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.firmLine1, .firmline2{
+    display: flex;
+    justify-content: space-around;
+}
+.buyStandard{
+    margin-top: 55px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background:#EF2A82;
+    border-radius: 20px;
+    font-family: robo;
+}
+.wrapBlock{
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+}
+.cover-circle{
+    width: 1000px;
+    height: 800px;
+    background: url(/img/cover_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+}
+.wrapBlockPricing{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 13em;
+}
+.cover-circle-small{
+    width: 300px;
+    height: 330px;
+    margin-top: -33px;
+    background: url(/img/cover_circle_small.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.title-header-cover{
+    width: 100%;
+    height: 582px;
+    background:#EF2A82;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+    position: relative;
+}
+.cntDevice{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+.cntPhone{
+    height: 200px;
+    background: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 9;
+    box-shadow: -10px 42px 14px #000;
+}
+.cntText{
+    width:540px;
+    margin-left: 95px;
+}
+.cntText button{
+    margin-top: 40px;
+    width: 238px;
+    background: #EF2A82;
+    font-family: robo-medium;
+    color:#fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.cntContent{
+    width: 1000px;
+    margin-top: 55px;
+}
+.cntContent h2{
+    font-family: robo;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172755;
+    text-align: center;
+}
+.cntContent .textMain{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8794BA;
+    text-align: center;
+}
+.monitoring, .widgetSystem, .bestPerfomance{
+    font-family: robo;
+    font-weight: 700;
+    font-size: 16px;
+    color: #172755;
+}
+.iconPerfomance{
+    display: flex;
+    margin-top: 120px;
+    gap: 50px;
+}
+.monitoringWrap, .widgetSystemWrap, .perfomanceWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color:#8794BA;
+    font-family: robo-medium;
+}
+.monitoringWrap img{
+    width: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.widgetSystemWrap img{
+    width: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.cntText h1{
+    font-family: robo;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+.cntText div{
+    color: #8794BA;
+    font-family: robo-medium;
+    line-height: 27px;
+}
+.cntTablet{
+    width: 43em;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.wrapTextDevice{
+    position: absolute;
+    display: flex;
+    top: 50px;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+}
+.menu{
+    margin-top: 20px;
+    margin-left: 95px;
+}
+.menu nav{
+    display: flex;
+    gap: 50px;
+}
+.menu nav a{
+    font-family: robo;
+    color: #8794BA;
+}
+.cntNewUser{
+    right: 0px;
+    display: flex;
+    gap: 70px;
+}
+.cntNewUser button{
+    font-family: robo;
+    color: #8794BA;
+}
+.tablet{
+    position: absolute;
+    right: 0px;
+    width: 40em;
+    background: #fff;
+    z-index: 1;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 0px 1px #000;
+}
+.cntImgTablet{
+    display: flex;
+}
+.cntNewUser{
+    position: absolute;
+    right: 10em;
+    margin-top: 20px;
+}
+.logotype{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: robo;
+    color: #fff;
+    margin-left: 95px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.logotypef{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: robo;
+    color: #fff;
+    margin-left: 95px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+.imgLogo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.title-menu{
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    position: absolute;
+    width: 98vw;
+}
+#singUp{
+    border:1px solid #8794BA;
+    padding: 15px 60px;
+    border-radius: 20px;
+}
+.container{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.wrapAutmotedReprt, .wrapDashboard{
+    display: flex;
+    margin-top: 50px;
+}
+.wrapFullyCustom{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.wrapBlockPricing h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: robo;
+    color: #fff;
+}
+.wrapTitlePrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapTitlePrice p{
+    color: #8794BA;
+    font-size: 18px;
+    font-family: robo-medium;
+    margin-top: 30px;
+    width: 700px;
+    text-align: center;
+}
+.wrapFooter{
+    position: relative;
+}
+.wrapCoverPrice{
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    height: 800px;
+    background: #EF2A82;
+    margin-top: 160px;
+    position: relative;
+}
+.coverPrice{
+    background: #172755;
+    height: 800px;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+    top: 10px;
+}
+.AutomatedReport{
+    width: 410px;
+    color: #8794BA;
+}
+.fullyCustom{
+    margin-left: 100px;
+    width: 465px;
+    color: #8794BA;
+}
+.dashboard{
+    width: 410px;
+    color: #8794BA;
+}
+.fullyCustom h2{
+    text-align: left;
+}
+.dashboard h2{
+    text-align: left;
+}
+.AutomatedReport p{
+    margin-top: 30px;
+    line-height: 27px;
+    font-family: robo-medium;
+}
+.fullyCustom p{
+    margin-top: 30px;
+    line-height: 27px;
+    font-family: robo-medium;
+}
+.dashboard p{
+    margin-top: 30px;
+    line-height: 27px;
+    font-family: robo-medium;
+}
+.imgDashboard img{
+    width: 550px;
+    margin-left: 100px;
+}
+.AutomatedReport h2{
+    text-align: left;
+}
+.imgAutomatedReport{
+    width: 600px;
+    height: 410px;
+    margin-left:100px;
+}
